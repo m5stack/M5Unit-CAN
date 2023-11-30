@@ -4,8 +4,8 @@
  * @brief M5Unit CAN Sender Example
  * @version 0.1
  * @date 2023-11-30
- * 
- * 
+ *
+ *
  * @Hardwares: M5Unit CAN
  * @Platform Version: Arduino M5Stack Board Manager v2.0.7
  * @Dependent Library:
@@ -30,7 +30,7 @@ void setup() {
     if (!CAN.begin(500E3)) {
         Serial.println("Starting CAN failed!");
         while (1)
-            ;                   
+            ;
     }
 }
 
